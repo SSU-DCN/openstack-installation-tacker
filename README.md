@@ -6,13 +6,13 @@ $ ifconfig
 ```
 
 ```
-$ chmod 700 openstack.sh
+$ chmod 700 openstack_installation_tacker.sh
 ```
 
 After checking the interface, copy the INTERFACE_ID that inet is not set (ex. eno2 or enx~~)
 
 ```
-$ ./openstack_install.sh ${INTERFACE_ID}
+$ ./openstack_installation_tacker.sh ${INTERFACE_ID}
 ```
 
 Set Openstack Dashboard Password
